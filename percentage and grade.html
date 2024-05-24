@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let state =parseInt(prompt("Enter state marks"))
+        let sp =parseInt(prompt("Enter S.P marks"))
+        let ba =parseInt(prompt("Enter B.A marks"))
+        let eco =parseInt(prompt("Enter Eco marks"))
+        let ac =parseInt(prompt("Enter A.C marks"))
+        let eng =parseInt(prompt("Enter Eng marks"))
+        let guj =parseInt(prompt("Enter Guj marks"))
+
+        let total = state+sp+ba+eco+ac+eng+guj
+        console.log("total");
+        console.log(total);
+        let result= total/7
+        console.log("result");
+        console.log(result);
+
+        if(result >= 90){
+            console.log("Grade");
+            console.log("A");
+        }else if(result >= 80){
+            console.log("Grade");
+            console.log("B");
+        }else if(result >= 70){
+            console.log("Grade");
+            console.log("C");
+        }else if(result >= 60){
+            console.log("Grade");
+            console.log("D");
+        }else if(result >= 50){
+            console.log("Grade");
+            console.log("E");
+        }else if(result >= 40){
+            console.log("Grade");
+            console.log("F");
+        }
+
+    </script>
+</body>
+</html>
